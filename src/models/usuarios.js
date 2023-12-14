@@ -10,10 +10,22 @@ class UsuariosModel {
         return await db('usuarios').where('id_usuario', id);
     }
 
-    static async agregarUsuario(usuarios) {
+    static async agregar(usuarios) {
+        
+
         let query = db('usuarios').insert(usuarios)
         return await query;
+    }
+    static async editar(id,usuarios) {
+       
+        let query = db('usuarios')
+        .where({ id_usuario: id })
+        .update(usuarios)
+        return await query;
+    }
+    static async actualizar(id_usuario, campos) {
         
+        return await db('usuarios').where('id_usuario', id_usuario).update(campos);
     }
 }
 
