@@ -2,6 +2,7 @@
 
 Permite Tener la información que se encuentra alojada en la tabla de categorias_ropa mostrando asi los tipos de ropa que hay en la categoria.
 
+
 ## Ejemplo de Solicitud
 ```http
 GET /categorias

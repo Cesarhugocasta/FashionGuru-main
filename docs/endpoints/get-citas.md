@@ -2,6 +2,8 @@
 
 Permite obtener la información alojada en la tabla de citas que se encuentra en la base de datos.
 
+
+
 ## Ejemplo de Solicitud
 ```http
 GET /citas

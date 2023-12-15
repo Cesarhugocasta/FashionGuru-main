@@ -10,6 +10,7 @@ BIenvenidos a la documetación API de el sistema. En este apartado se presentar�
 | Recurso                    | Descripción |
 | -------------------------- | ----------- |
 | [`GET /categorias` ](./endpoints//get-categorias_ropa.md) | Recupera la lista de todos las categorias disponibles. |
+| [`GET /categorias/{id}` ](./endpoints//get-categorias_ropa-id.md) | Recupera la lista de todos las categorias disponibles. |
 | [`GET /citas`](./endpoints//get-citas.md)          | Obtiene la información de las citas almacenadas. |
 | [`GET /inventario`](./endpoints/get-inventario_ropa.md)   | Obtiene la lista de todos los articulos en el inventario. |
 | [`GET /usuarios` ](./endpoints/get-usuarios.md)             | Recupera la lista de todos los usuarios registrados en el sistema. |
